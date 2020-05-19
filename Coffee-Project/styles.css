@@ -1,0 +1,166 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+	width: 960px;
+	text-align: justify;
+	}
+
+h1, h2, h3{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: brown;
+}
+
+label {
+	margin: 10px 10px 5px 0px; 
+	display: block;
+}
+
+input, textarea, select {
+	margin: 5px 10px 10px 15px;
+
+}
+
+textarea {
+	height: 100px;
+	width: 300px;
+	margin-bottom: 20px;	
+}
+
+legend {
+	margin-bottom: 20px;
+}
+
+#name, #email {
+	width: 250px;
+}
+
+#submit {
+	background-color: #CD5C5C;
+	width: 100px;
+	color: white;
+	border-color: white;
+
+}
+
+ul{
+	list-style-image: url("images/tiny-coffee-cup.gif");
+}
+
+a:link, a:visited {
+	color:	brown;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover {
+	color:	black;
+	text-decoration: underline;
+}
+
+nav ul{
+	list-style-type: none;	
+	padding: 5px 0;
+
+ }
+
+nav li{
+ 	display: inline;
+ 	float: left;
+
+ }
+
+nav a:link, nav a:visited{
+ 	color: white;
+ 	background-color: brown;
+ 	display: block;
+ 	width: 160px;
+ 	text-align: center;
+ 	padding: 10px 0;
+ }
+
+ nav a:hover{
+ 	background-color: black;
+ 	color: white;
+ 	text-decoration: none;
+ }
+
+ aside {
+ 	float: right;
+ 	width: 260px;
+ 	background-color: tan;
+ 	text-align: center;
+ 	padding: 20px;
+ 	font-weight: bold;
+ 	margin-left: 20px;
+ }
+
+ .photo-left {
+ 	float: left;
+ 	margin-right: 20px;
+ }
+
+ .photo-right {
+ 	float: right;
+ 	margin-left: 20px;
+ }
+
+ header {
+ 	background-image: url("images/coffee-beans.jpg");
+ 	height: 100px;
+ 	margin-bottom: 70px;
+
+ }
+
+ header h1 {
+ 	color: rgba(256,256,256,0.85);
+ 	padding: 20px;
+ 	margin-left: 20px;
+ 	margin-bottom: -15px;
+ 	font-size: 40px;
+ }
+
+footer {
+	margin: 40px 0;
+}
+ footer nav a:link, footer nav a:visited {
+ 	display: block;
+ 	background-color: #f0f0f0;
+ 	color: gray;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	width: 160px;
+ }
+
+ footer nav a:hover {
+ 	color: black;
+ }
+
+ table, th, td {
+ 	border: 1px solid brown;
+ 	border-collapse: collapse;
+ 	padding: 20px;
+ }
+
+ th, td {
+ 	text-align: center;
+ }
+
+ thead {
+ 	font-weight: bold;
+ }
+
+ caption {
+ 	padding-bottom: 10px;
+ 	color: brown;	
+ }
+
+ video {
+ 	margin: 0px 0px 30px 150px;
+ 	-webkit-filter: grayscale(100%);
+ 	-moz-filter: grayscale(100%);
+ 	filter: grayscale(100%);
+ }
+
+

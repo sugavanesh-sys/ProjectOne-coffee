@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+<meta charset="utf-8">
+<title>Coffee Survey</title>
+
+</head>
+
+<body>
+<header>
+	<h1>It's Coffee time!</h1>
+
+<nav>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="roasting.html">Roasting</a></li>
+	<li><a href="grinding.html">Grinding</a></li>
+	<li><a href="brewing.html">Brewing</a></li>
+	<li><a href="drinks.html">Drinks</a></li>
+	<li><a href="survey.html">Survey</a></li>
+</ul>
+</nav>
+</header>
+<h1>Coffee Survey</h1>
+<aside>
+	<figure>
+		<img src="images/espresso.jpg" alt="A coffee cup">
+		<blockquote>Take a Break! Sip a Coffee!</blockquote>
+	</figure>
+</aside>
+<form action="submit.php" method="post">
+
+<fieldset>
+	<legend>Personal Information</legend>
+<label for="name">Your Name</label>
+<input type="text" name="name" id="name" required placeholder="Please enter full name">
+<br>
+
+Email Address <br>
+<input type="email" name="email" id="email" required placeholder="Your email address here">
+</fieldset>
+<br>
+
+
+
+<fieldset>
+
+	<legend>Your Coffee Preferences</legend>
+<label for="message">1. Tell us your coffee preparation methods.</label><br>
+<textarea placeholder="Enter your methodology"></textarea>
+
+<br>
+<label for="radio">2. Do you grind your own beans?</label><br>
+<input type="radio" name="radio" id="radio" value="yes">Yes<br>
+<input type="radio" name="radio" id="radio" value="no">No
+
+<br>
+<label for="check">3. How do you drink your coffee?</label><br>
+<input type="checkbox" name="checkbox" id="check" value="yes">With sugar<br>
+<input type="checkbox" name="checkbox" id="check" value="yes">With cream
+
+<br>
+<label for="dropdown">4. What is your favorite coffee drink?</label><br>
+	<select>
+		<option value="" selected>Please select a drink</option>
+		<option value="coffee">Drip coffee</option>
+		<option value="frenchPress">French press</option>
+		<option value="espresso">Espresso</option>
+		<option value="latte">Latte</option>
+		<option value="flavored">Flavored</option>
+	</select>
+
+<br>
+
+
+
+
+<input type="checkbox" name="agree" value="yes" required id="tac"> 
+Select this checkbox to agree submitting your personal information.
+<br>
+<input type="submit" name="submit" value="SUBMIT" id="submit">
+
+</fieldset>
+</form>
+
+<footer>
+	<nav>
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="roasting.html">Roasting</a></li>
+	<li><a href="grinding.html">Grinding</a></li>
+	<li><a href="brewing.html">Brewing</a></li>
+	<li><a href="drinks.html">Drinks</a></li>
+	<li><a href="survey.html">Survey</a></li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>
